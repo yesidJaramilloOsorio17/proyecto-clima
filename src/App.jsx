@@ -40,7 +40,7 @@ const handleSubmit = e => {
           <div className="App">
         <div className='buscador'>
            <label htmlFor="id" id='city'>Contrys or Citys</label> <br />
-           <input id='casilla' value={ value } type="text" onChange={ (e) => setValue( e.target.value)}  />
+           <input id='casilla' value={ value } type="text" placeholder='cali' onChange={ (e) => setValue( e.target.value)}  />
            <button type='submit'className='get' >
            get weather
             </button>
