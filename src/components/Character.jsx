@@ -1,7 +1,7 @@
 const Character = ({ data }) => {
 
-    var url = "";
-    var iconUrl = "";
+    let url = "";
+    let iconUrl = "";
 
     if(Character){
         url = "http://openweathermap.org/img/w/";
@@ -28,7 +28,7 @@ const Character = ({ data }) => {
             <h2 className='name'>{ data.name }</h2> 
            </div>
            <div className='grid4'>
-           <h3><span></span>  <img src={iconUrl}alt="" className="icon"/>{ data.weather?.[0].description}</h3>
+           <h3><span></span>  <img src={iconUrl}alt="" className="icon" width="120px"/>{ data.weather?.[0].description}</h3>
            </div>
         
             
