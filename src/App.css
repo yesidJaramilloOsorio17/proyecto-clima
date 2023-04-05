@@ -82,7 +82,7 @@ scroll-behavior: smooth;
 
 .icon{
   display:grid;
- position: fixed;
+
 
  
 }
@@ -128,7 +128,7 @@ font-size: 10px;
     grid-template-columns: auto auto  ;
    
     width: 200px;
-      height: 200px;
+      height: 250px;
       clip-path: polygon(0 0, 0 200%, 400% 100%);
       border-radius: 2rem;
       background-color:#d5f3fffb;
