@@ -101,7 +101,7 @@ font-size: 10px;
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .grid4{
     text-align:center;
     font-size: 14px;
@@ -110,12 +110,12 @@ font-size: 10px;
     grid-column-start: auto;
   }
   .name{
-    font-size: 17px;
+    font-size: 20px;
    color: #026eed;
     
   }
   .temp{
-    font-size: 27px;
+    font-size: 40px;
     margin: 0;
     color: #026eed;
    
@@ -130,7 +130,7 @@ font-size: 10px;
       clip-path: polygon(0 0, 0 200%, 400% 100%);
       border-radius: 2rem;
       background-color:#d5f3fffb;
-      border-top-right-radius: 80rem 20rem ;
+      border-top-right-radius: 75rem 29rem ;
       border-top-left-radius: 10rem;
       border-bottom-left-radius: 8rem;
       border-bottom-right-radius: 8rem;
