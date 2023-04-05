@@ -28,7 +28,7 @@ const Character = ({ data }) => {
             <h2 className='name'>{ data.name }</h2> 
            </div>
            <div className='grid4'>
-           <h3><span></span>  <img src={iconUrl}alt="" className="icon" width="120px"/>{ data.weather?.[0].description}</h3>
+           <h3> <img src={iconUrl}alt="" className="icon" width="190px"/><span>{ data.weather?.[0].description}</span> </h3>
            </div>
         
             
