@@ -103,7 +103,9 @@ font-size: 10px;
 
 }
 
-@media (max-width: 868px) {
+  
+
+@media (max-width: 568px) {
   .grid4{
     text-align:center;
     font-size: 14px;
