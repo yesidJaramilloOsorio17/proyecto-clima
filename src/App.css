@@ -101,7 +101,7 @@ font-size: 10px;
 
 }
 
-@media (max-width: 568px) {
+@media (max-width: 768px) {
   .grid4{
     text-align:center;
     font-size: 14px;
@@ -121,7 +121,24 @@ font-size: 10px;
    
    
   }
+  .character-card{
+    display:grid;
+    grid-template-columns: auto auto  ;
+   
+    width: 45vh;
+      height: 35vh;
+      clip-path: polygon(0 0, 0 200%, 400% 100%);
+      border-radius: 2rem;
+      background-color:#d5f3fffb;
+      border-top-right-radius: 80rem 20rem ;
+      border-top-left-radius: 10rem;
+      border-bottom-left-radius: 8rem;
+      border-bottom-right-radius: 8rem;
+      padding: 20px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404) ;
+  }
 
   }
+  
 
 
